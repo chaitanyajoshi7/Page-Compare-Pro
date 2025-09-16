@@ -1,1 +1,1 @@
-# Page-Compare-Pro
+# PageCompare

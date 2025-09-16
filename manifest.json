@@ -1,0 +1,24 @@
+{
+  "name": "Page Compare Pro",
+  "version": "5.1",
+  "description": "Compares the active page against a source page, highlighting all differences in an interactive summary panel.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "tabs",
+    "scripting"
+  ],
+  "host_permissions": [
+    "*://*/*"
+  ],
+  "manifest_version": 3
+}
